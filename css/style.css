@@ -43,6 +43,15 @@ a{
     border-radius: 25px;
 }
 
+.botton-black{
+    background-color: var(--color-black-primary);
+    color: var(--color-white-secondary);
+    border-radius: 25px;
+    padding-left: 20px;
+    margin-left: 10px;
+
+}
+
 
 /* Flex */
 
@@ -64,6 +73,7 @@ a{
 }
 
 
+
 /* Header */
 header{
     background-color: var(--color-header-bg);
@@ -83,8 +93,21 @@ header{
 }
 
 #title{
-    padding-top: 50px;
+    padding-top: 120px;
     font-size: 40px;
+}
+
+#text-title{
+    padding-top: 40px;
+    line-height: 30px;
+}
+
+.botton{
+    padding-top: 30px;
+}
+
+.botton-white i {
+    padding-right: 5px;
 }
 
 /* Main */
