@@ -59,6 +59,16 @@ header{
     color: var(--color-white-secondary);
 }
 
+#hero{
+    background-image: url(../img/jumbo.png);
+    min-height: 500px;
+    background-size: cover;
+}
+
+.hero-content{
+    max-width: 800px;
+    margin: 0 auto;
+}
 
 /* Main */
 main{
@@ -70,6 +80,9 @@ main section{
 .even{
     background-color: var(--color-gray);
 }
+
+
+
 /* Footer */
 
 footer{
