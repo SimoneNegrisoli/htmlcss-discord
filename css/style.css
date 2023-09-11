@@ -33,10 +33,12 @@ header{
 main{
     background-color: var(--color-white-secondary);
 }
-main:nth-child(even){
+main section{
+    padding: 60px 0;
+}
+.even{
     background-color: var(--color-gray);
 }
-
 /* Footer */
 
 footer{
