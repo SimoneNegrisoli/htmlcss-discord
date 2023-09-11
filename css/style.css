@@ -21,13 +21,44 @@
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    padding: 30px 10px;
 }
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: var(--color-white-secondary);
+    text-decoration: none;
+    padding: 10px 25px;
+
+}
+
+.botton-white{
+    background-color: var(--color-white-secondary);
+    color: var(--color-black-primary);
+    border-radius: 25px;
+}
+
+
+/* Flex */
+
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
 
 /* Header */
 header{
     background-color: var(--color-header-bg);
     color: var(--color-white-secondary);
 }
+
 
 /* Main */
 main{
