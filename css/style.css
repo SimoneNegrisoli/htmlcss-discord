@@ -7,13 +7,15 @@
 }
 
 :root {
-	--color-header-bg: #2558e9;
+	--color-header-bg: #255EE8;
 	--color-white-secondary: #ffffff;
 	--color-gray: #f6f6f6;
 	--color-black-primary: #23262a;
 	--color-purple-accessory: #7289da;
 }
-
+body{
+    font-family: 'Noto Sans Linear B 600', sans-serif;
+}
 .debug{
     border: 1px solid black;
 }
@@ -44,10 +46,19 @@ a{
 
 /* Flex */
 
-.flex{
+.b-flex{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+
+.c-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
     align-items: center;
     align-content: center;
 }
@@ -67,7 +78,13 @@ header{
 
 .hero-content{
     max-width: 800px;
-    margin: 0 auto;
+    text-align: center;
+
+}
+
+#title{
+    padding-top: 50px;
+    font-size: 40px;
 }
 
 /* Main */
