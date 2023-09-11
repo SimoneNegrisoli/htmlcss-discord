@@ -71,7 +71,22 @@ a{
     align-items: center;
     align-content: center;
 }
+.r-flex{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
 
+.column-flex{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: left;
+    align-items: center;
+    flex-basis: 300px;
+    padding-left: 30px;
+}
 
 
 /* Header */
@@ -110,17 +125,26 @@ header{
     padding-right: 5px;
 }
 
+
 /* Main */
 main{
     background-color: var(--color-white-secondary);
 }
-main section{
-    padding: 60px 0;
-}
+
 .even{
     background-color: var(--color-gray);
 }
 
+h2{
+    font-size: 35px;
+    line-height: 50px;
+}
+
+
+.column-flex p {
+    line-height: 20px;
+    padding-top: 20px;
+}
 
 
 /* Footer */
