@@ -1,0 +1,46 @@
+/* Generals */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+	--color-header-bg: #2558e9;
+	--color-white-secondary: #ffffff;
+	--color-gray: #f6f6f6;
+	--color-black-primary: #23262a;
+	--color-purple-accessory: #7289da;
+}
+
+.debug{
+    border: 1px solid black;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header{
+    background-color: var(--color-header-bg);
+    color: var(--color-white-secondary);
+}
+
+/* Main */
+main{
+    background-color: var(--color-white-secondary);
+}
+main:nth-child(even){
+    background-color: var(--color-gray);
+}
+
+/* Footer */
+
+footer{
+    background-color: var(--color-black-primary);
+    color: var(--color-white-secondary);
+    
+}
