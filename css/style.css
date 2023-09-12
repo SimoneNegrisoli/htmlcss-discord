@@ -30,6 +30,7 @@ ul{
     list-style: none;
 }
 
+
 a{
     color: var(--color-white-secondary);
     text-decoration: none;
@@ -51,12 +52,11 @@ a{
     margin-left: 10px;
 }
 
-/* main img{
-    max-width: 100%;
-} */
 
 
 /* Flex */
+
+    /* Main Axis */
 
 .b-flex{
     display: flex;
@@ -66,7 +66,13 @@ a{
     align-content: center;
 }
 
-
+.footer-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
+}
 .c-flex{
     display: flex;
     flex-flow: row wrap;
@@ -81,6 +87,14 @@ a{
     align-items: center;
     align-content: center;
 }
+.start-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
 
 .r-r-flex{
     display: flex;
@@ -89,6 +103,9 @@ a{
     align-items: center;
     align-content: center; 
 }
+
+    /* Cross Axiss */
+
 .column-flex{
     display: flex;
     flex-flow: column wrap;
@@ -194,12 +211,8 @@ footer{
     
 }
 footer h4{
-    font-size: 2em;
+    font-size: 1.5em;
     color: var(--color-purple-accessory);
-}
-.languages{
-    padding-top: 20px;
-
 }
 
 select:hover{
@@ -210,15 +223,29 @@ select{
     border: 0;
     background-color: var(--color-black-primary);
     color: var(--color-white-secondary);
-    font-size: 1.5em;
+    font-size: 1.1em;
+}
+
+.ita{
+    width: 25px;
+}
+
+div> .start-flex{
+    padding-top: 45px;
+}
+
+footer h5{
+    font-size: 1.1em;
+    color: var(--color-purple-accessory);
+    padding-bottom: 10px;
 
 }
 
-/* .vertical-align{
-    vertical-align: middle;
-    display: inline-block;
-} */
+footer ul li{
+    padding: 10px 0;
+}
 
-.ita{
-    width: 50px;
+footer ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
