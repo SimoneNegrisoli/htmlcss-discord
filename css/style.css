@@ -170,7 +170,7 @@ header{
     padding-bottom: 120px;
 }
 
-.botton-white i {
+.botton-white, .botton-purple i {
     padding-right: 5px;
 }
 
@@ -210,6 +210,34 @@ section{
 #wide-image{
     width: 100%;
 }
+
+.starred{
+    order: -1;
+    background-image: url("../img/stars.svg");
+    background-size: 40%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    font-size: 1.4em;
+}
+
+.bnt-end{
+    order: -2;
+}
+
+.wave{
+    opacity: 0.03;
+}
+.wave img{
+    width: 100%;
+    display: block;
+}
+.upside-down{
+    transform: rotate(180deg) 
+}
+
 
 /* Footer */
 
