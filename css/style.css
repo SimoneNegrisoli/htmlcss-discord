@@ -14,7 +14,7 @@
 	--color-purple-accessory: #7289da;
 }
 body{
-    font-family: 'Noto Sans Linear B 600', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 .debug{
     border: 1px solid black;
@@ -341,10 +341,15 @@ div a i{
 
 .d-hero-right{
     width: 100%;
+    padding: 0 20px;
+
 }
 .d-hero-right h1{
-    font-size: 4.5em;
-
+    font-size: 3.5em;
+    font-weight: 900;
+}
+.d-hero-right p{
+    padding: 40px 0;
 }
 
 .d-hero-left{
@@ -352,4 +357,27 @@ div a i{
 }
 .d-hero-left img{
     width: 100%;
+}
+
+.d-botton-color{
+    background-color: #7983F5;
+    margin-left: 0;
+}
+
+.d-main{
+    background-color: var(--color-white-secondary);
+    width: 100%;
+}
+
+.content{
+    background-color: var(--color-gray);
+    width: 45%;
+}
+.download-flex-items{
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-d{
+    padding: 30px 0;
 }
