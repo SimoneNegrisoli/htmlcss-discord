@@ -372,6 +372,9 @@ div a i{
 .content{
     background-color: var(--color-gray);
     width: 45%;
+    margin: 20px;
+    border-radius: 25px;
+    text-align: center;
 }
 .download-flex-items{
     justify-content: center;
