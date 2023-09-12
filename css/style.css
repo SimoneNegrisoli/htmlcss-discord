@@ -321,3 +321,35 @@ div a i{
 #twitter{
     padding-left: 0;
 }
+
+/* ___________________________________________ */
+/* ___________________________________________ */
+ 
+/* Download */
+
+.download-bg{
+    background-color: var(--color-black-primary);
+}
+
+.download-hero-flex{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.d-hero-right{
+    width: 100%;
+}
+.d-hero-right h1{
+    font-size: 4.5em;
+
+}
+
+.d-hero-left{
+    width: 100%;
+}
+.d-hero-left img{
+    width: 100%;
+}
