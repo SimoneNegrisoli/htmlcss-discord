@@ -49,8 +49,11 @@ a{
     border-radius: 25px;
     padding-left: 20px;
     margin-left: 10px;
-
 }
+
+/* main img{
+    max-width: 100%;
+} */
 
 
 /* Flex */
@@ -81,7 +84,7 @@ a{
 
 .r-r-flex{
     display: flex;
-    flex-flow: row-reverse nowrap;
+    flex-flow: row-reverse wrap;
     justify-content: center;
     align-items: center;
     align-content: center; 
@@ -95,6 +98,20 @@ a{
     padding-left: 30px;
 }
 
+.column-r-flex{
+    display: flex;
+    flex-flow: column-reverse wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+}
+
+.a-flex{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: left;
+    align-items: center;
+}
 
 /* Header */
 header{
@@ -154,6 +171,20 @@ h2{
     padding-top: 20px;
 }
 
+section{
+    padding: 150px 0;
+}
+
+
+.a-flex p{
+    padding: 20px 60px;
+    text-align: center;
+    line-height: 20px;
+}
+
+#wide-image{
+    width: 100%;
+}
 
 /* Footer */
 
@@ -162,8 +193,32 @@ footer{
     color: var(--color-white-secondary);
     
 }
+footer h4{
+    font-size: 2em;
+    color: var(--color-purple-accessory);
+}
+.languages{
+    padding-top: 20px;
 
+}
 
+select:hover{
+    cursor: pointer;
+}
+select{
+    display: block;
+    border: 0;
+    background-color: var(--color-black-primary);
+    color: var(--color-white-secondary);
+    font-size: 1.5em;
 
+}
 
-mettere padding tra le section
+/* .vertical-align{
+    vertical-align: middle;
+    display: inline-block;
+} */
+
+.ita{
+    width: 50px;
+}
