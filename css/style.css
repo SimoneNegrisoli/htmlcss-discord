@@ -79,6 +79,13 @@ a{
     align-content: center;
 }
 
+.r-r-flex{
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+}
 .column-flex{
     display: flex;
     flex-flow: column wrap;
@@ -97,7 +104,6 @@ header{
 
 #hero{
     background-image: url(../img/jumbo.png);
-    min-height: 500px;
     background-size: cover;
 }
 
@@ -119,6 +125,7 @@ header{
 
 .botton{
     padding-top: 30px;
+    padding-bottom: 120px;
 }
 
 .botton-white i {
@@ -130,6 +137,7 @@ header{
 main{
     background-color: var(--color-white-secondary);
 }
+
 
 .even{
     background-color: var(--color-gray);
@@ -154,3 +162,8 @@ footer{
     color: var(--color-white-secondary);
     
 }
+
+
+
+
+mettere padding tra le section
