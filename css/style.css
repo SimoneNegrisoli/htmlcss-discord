@@ -52,6 +52,13 @@ a{
     margin-left: 10px;
 }
 
+.botton-purple{
+    background-color: var(--color-purple-accessory);
+    color: var(--color-white-secondary);
+    border-radius: 25px;
+    padding-left: 20px;
+    margin-left: 10px;
+}
 
 
 /* Flex */
@@ -72,6 +79,7 @@ a{
     justify-content: space-between;
     align-content: flex-start;
     align-items: flex-start;
+    border-bottom: 1px solid var(--color-purple-accessory);
 }
 .c-flex{
     display: flex;
@@ -235,7 +243,7 @@ div> .start-flex{
 }
 
 footer h5{
-    font-size: 1.1em;
+    font-size: 1em;
     color: var(--color-purple-accessory);
     padding-bottom: 10px;
 
