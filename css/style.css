@@ -170,9 +170,10 @@ header{
     padding-bottom: 120px;
 }
 
-.botton-white, .botton-purple i {
+.padding-botton-fix{
     padding-right: 5px;
 }
+
 
 
 /* Main */
