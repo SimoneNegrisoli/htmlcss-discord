@@ -35,8 +35,11 @@ a{
     color: var(--color-white-secondary);
     text-decoration: none;
     padding: 10px 25px;
-
 }
+
+/* ___________________________________________ */
+
+ /* BOTTON */
 
 .botton-white{
     background-color: var(--color-white-secondary);
@@ -60,6 +63,7 @@ a{
     margin-left: 10px;
 }
 
+/* ___________________________________________ */
 
 /* Flex */
 
@@ -138,6 +142,9 @@ a{
     align-items: center;
 }
 
+/* ___________________________________________ */
+
+
 /* Header */
 header{
     background-color: var(--color-header-bg);
@@ -174,6 +181,23 @@ header{
     padding-right: 5px;
 }
 
+nav a:hover{
+    text-decoration: underline;
+}
+
+.botton-effect:hover{
+    color: var(--color-purple-accessory);
+    text-decoration: none;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5)
+}
+.botton-effect-a:hover{
+    color: var(--color-black-primary);
+    text-decoration: none;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5)
+    
+}
+
+/* ___________________________________________ */
 
 
 /* Main */
@@ -240,6 +264,9 @@ section{
 }
 
 
+/* ___________________________________________ */
+
+
 /* Footer */
 
 footer{
@@ -285,4 +312,8 @@ footer ul li{
 footer ul li:hover{
     text-decoration: underline;
     cursor: pointer;
+}
+
+div a i{
+    padding-right: 5px;
 }
